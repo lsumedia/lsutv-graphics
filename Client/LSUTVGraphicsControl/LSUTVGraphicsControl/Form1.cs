@@ -162,19 +162,23 @@ namespace LSUTVGraphicsControl {
             hideAll();
         }
 
+        private Int32 getProgramStartTime() {
+            DateTime value = programStartField.Value.ToUniversalTime();
+            Int32 unixTimestamp = (Int32)(value.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+            return unixTimestamp;
+        }
+
         private void showTitleCardBtn_Click(object sender, EventArgs e) {
             cgData.Clear();
-            cgData.SetData("f0", programTitleField.Text);
-            cgData.SetData("f1", "10th September 2017");
-            cgData.SetData("f2", "15:00");
+            cgData.SetData("ProgramTitle", programTitleField.Text);
+            cgData.SetData("ProgramStartTime", getProgramStartTime().ToString());
             this.caspar_.Channels[Properties.Settings.Default.CasparChannel].CG.Add(Properties.Settings.Default.GraphicsLayerCountdown, "COUNTDOWN_FS.XFL", true, cgData);
         }
 
         private void showCountdownL3Btn_Click(object sender, EventArgs e) {
             cgData.Clear();
-            cgData.SetData("f0", programTitleField.Text);
-            cgData.SetData("f1", "10th September 2017");
-            cgData.SetData("f2", "15:00");
+            cgData.SetData("ProgramTitle", programTitleField.Text);
+            cgData.SetData("ProgramStartTime", getProgramStartTime().ToString());
             this.caspar_.Channels[Properties.Settings.Default.CasparChannel].CG.Add(Properties.Settings.Default.GraphicsLayerCountdown, "COUNTDOWN_L3.XFL", true, cgData);
         }
     }

@@ -1,22 +1,22 @@
 ﻿package  {
 	
 	import flash.display.MovieClip;
+	import flash.utils.*;
 	import flash.events.Event;
 	import flash.events.TimerEvent;
 	import se.svt.caspar.template.CasparTemplate;
-	import flash.utils.*;
 	import flash.text.TextField;
 	
 	public class CountDown_L3 extends CasparTemplate {
 		
 		public var CountDownMovie:MovieClip;
 		private var targetTime:Number = 0;
+		var clockTimer:Timer = new Timer(1000);
 		
 		public function CountDown_L3(){
-			var clockTimer:Timer = new Timer(1000);
 			clockTimer.addEventListener(TimerEvent.TIMER, RefreshClock);
-			//clockTimer.start();
-			RefreshClock();
+			clockTimer.start();
+			RefreshClock(null);
 		}
 
 		public override function SetData(xmlData:XML):void 
@@ -26,15 +26,17 @@
 						CountDownMovie.ProgramTitle.text = String(element.data.@value);
 					}
 					if(element.@id == "ProgramStartTime"){
-						targetTime = Number(element.data.@value);
+						targetTime = Number(element.data.@value) * 1000;
 					}
 					
 				}
 				
+				RefreshClock(null);
+				
 				//super.SetData(xmlData);
 			}
 			
-		public function RefreshClock(){
+		private function RefreshClock(event:TimerEvent):void{
 			var cDate = new Date();
 			var cTime = cDate.getTime();
 			
@@ -46,8 +48,7 @@
 		
 		public function toTimeString(remainder:Number):String
 		{						
-			if (remainder < 1)
-				return "00.00";
+			if (remainder < 1) return "00:00";
 			
             var numHours:Number = Math.floor(remainder / 3600000);
             remainder = remainder - (numHours * 3600000);

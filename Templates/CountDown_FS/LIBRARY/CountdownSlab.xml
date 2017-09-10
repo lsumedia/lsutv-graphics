@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CountdownSlab" itemID="59b51048-00001696" lastModified="1505042908">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CountdownSlab" itemID="59b51048-00001696" lastModified="1505081584">
   <timeline>
     <DOMTimeline name="CountdownSlab">
       <layers>
@@ -41,7 +41,7 @@ function handle_timer(evt:Event):void{
                     <Matrix a="0.110366821289063" d="0.1103515625" tx="-100" ty="60"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMDynamicText name="f0" fontRenderingMode="standard" left="-412.85" width="896" height="65.8" isSelectable="false" lineType="multiline">
+                <DOMDynamicText name="ProgramTitle" fontRenderingMode="standard" left="-412.85" width="896" height="65.8" isSelectable="false" lineType="multiline">
                   <matrix>
                     <Matrix tx="-35.15" ty="302"/>
                   </matrix>
@@ -54,7 +54,7 @@ function handle_timer(evt:Event):void{
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="f2" fontRenderingMode="standard" width="596" height="106.95" isSelectable="false" lineType="multiline">
+                <DOMDynamicText name="CountDownTime" fontRenderingMode="standard" width="596" height="106.95" isSelectable="false" lineType="multiline">
                   <matrix>
                     <Matrix tx="-298" ty="505"/>
                   </matrix>
@@ -67,7 +67,7 @@ function handle_timer(evt:Event):void{
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="f1" fontRenderingMode="standard" left="-412.85" width="896" height="63.3" isSelectable="false" lineType="multiline">
+                <DOMDynamicText name="ProgramDate" selected="true" fontRenderingMode="standard" left="-412.85" width="896" height="63.3" isSelectable="false" lineType="multiline">
                   <matrix>
                     <Matrix tx="-35.15" ty="395.95"/>
                   </matrix>

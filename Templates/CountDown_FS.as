@@ -1,62 +1,84 @@
 ﻿package  {
 	
 	import flash.display.MovieClip;
+	import flash.utils.*;
 	import flash.events.Event;
 	import flash.events.TimerEvent;
-	import flash.text.TextField;
-	import flash.text.TextFieldAutoSize;
-	import flash.text.TextFormat;
-	import flash.utils.*;
 	import se.svt.caspar.template.CasparTemplate;
+	import flash.text.TextField;
 	
-	
-	public class Countdown_FS extends CasparTemplate {
+	public class CountDown_FS extends CasparTemplate {
 		
-		public function Countdown_FS() 
-		{		
-			trace("[CountDown]");
-			
-			xTime.text = "";
-			myTimer.addEventListener("timer", onTimer);			
-			onTimer(null);
-			myTimer.start();
-			
-			this.xTime
-			this.visible = true;//false;
-			this.allowPlay = true; //false;
-			targetTime = new Date(2000, 5, 7, 15, 0, 0).getTime();
+		public var CountDownMovie:MovieClip;
+		private var targetTime:Number = 0;
+		var clockTimer:Timer = new Timer(1000);
+		
+		var months:Array = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+		
+		public function CountDown_FS(){
+			clockTimer.addEventListener(TimerEvent.TIMER, RefreshClock);
+			clockTimer.start();
+			RefreshClock(null);
 		}
-		
-		override public function SetData(xmlData:XML):void
-		{		
-			var year:Number;
-			var month:Number;
-			var day:Number;
-			var hour:Number;
-			var min:Number;
-			var sec:Number;
-			
-			for each (var element:XML in xmlData.elements())
-			{				
-				if (element.@id == "f0")	
-					year = Number(element.data.@value);						
-				else if (element.@id == "f1")
-					month= Number(element.data.@value)-1;
-				else if (element.@id == "f2")
-					day = Number(element.data.@value);
-				else if (element.@id == "f3")
-					hour = Number(element.data.@value);
-				else if (element.@id == "f4")
-					min = Number(element.data.@value);
-				else if (element.@id == "f5")
-					sec = Number(element.data.@value);
+
+		public override function SetData(xmlData:XML):void 
+			{
+				for each(var element:XML in xmlData.elements()){
+					if(element.@id == "ProgramTitle"){
+						CountDownMovie.ProgramTitle.text = String(element.data.@value);
+					}
+					if(element.@id == "ProgramStartTime"){
+						targetTime = Number(element.data.@value) * 1000;
+					}
+					
+				}
+				
+				
+				var tDate = new Date(targetTime);
+				var month = tDate.getMonth();
+				var day = String(tDate.getDate());
+				var year = String(tDate.getFullYear());
+				
+				CountDownMovie.ProgramDate.text = day + " " + months[month] + " " + year;
+				
+				RefreshClock(null);
+				
+				//super.SetData(xmlData);
 			}
 			
-			targetTime = new Date(year, month, day, hour, min, sec).getTime();
-			this.allowPlay = true;
+		private function RefreshClock(event:TimerEvent):void{
+			var cDate = new Date();
+			var cTime = cDate.getTime();
 			
-			onTimer(null);
+			var tLeft = targetTime - cTime;
+			
+			CountDownMovie.CountDownTime.text = toTimeString(tLeft);
 		}
+		
+		public function toTimeString(remainder:Number):String
+		{						
+			if (remainder < 1) return "00:00";
+			
+            var numHours:Number = Math.floor(remainder / 3600000);
+            remainder = remainder - (numHours * 3600000);
+
+            var numMinutes:Number = Math.floor(remainder / 60000);
+            remainder = remainder - (numMinutes * 60000);
+
+            var numSeconds:Number = Math.floor(remainder / 1000);
+            remainder = remainder - (numSeconds * 1000);
+			
+			return (numHours > 0 ? toPadString(Math.min(9999, numHours)) + ":" : "") + toPadString(numMinutes) + ":" + toPadString(numSeconds);
+		}
+		
+		public function toPadString(value:Number):String
+		{
+			var str:String = value.toString();
+			while (str.length < 2)
+				str = "0" + str;
+			return str;
+		}
+
 	}
-	
+		
 }
