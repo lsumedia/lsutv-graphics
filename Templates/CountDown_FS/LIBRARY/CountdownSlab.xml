@@ -1,0 +1,90 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CountdownSlab" itemID="59b51048-00001696" lastModified="1505042908">
+  <timeline>
+    <DOMTimeline name="CountdownSlab">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[/*
+addEventListener('enterFrame',handle_timer); 
+// run continuously 
+function handle_timer(evt:Event):void{ 
+	// current date, year and time 
+	var cDate:Date = new Date(); 
+	
+	var cTime = cDate.getTime(); 
+	var cTimeString = cDate.toLocaleTimeString();
+	
+	var sec = Math.floor(cTime/1000); 
+	var min = Math.floor(sec/60); 
+	var hours = Math.floor(min/60); 
+	var days = Math.floor(hours/24);
+	
+	CountdownClock.text = cTimeString;
+	
+	// time left
+	
+};*/]]></script>
+              </Actionscript>
+              <elements>
+                <DOMRectangleObject objectWidth="1000" objectHeight="650" x="-2" y="-0.95" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="-498" ty="0.95"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMBitmapInstance libraryItemName="lsutv_master.png">
+                  <matrix>
+                    <Matrix a="0.110366821289063" d="0.1103515625" tx="-100" ty="60"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMDynamicText name="f0" fontRenderingMode="standard" left="-412.85" width="896" height="65.8" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-35.15" ty="302"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>PROGRAM TITLE</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="63.3" size="48" bitmapSize="960" face="RobotoSlab-Regular"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="f2" fontRenderingMode="standard" width="596" height="106.95" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-298" ty="505"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>00:00</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="94.95" size="72" bitmapSize="1440" face="RobotoSlab-Regular"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="f1" fontRenderingMode="standard" left="-412.85" width="896" height="63.3" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-35.15" ty="395.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>TRANSMISSION DATE</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="63.3" size="48" bitmapSize="960" face="RobotoSlab-Regular"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
