@@ -36,11 +36,14 @@
   <ItemGroup>
     <Reference Include="Svt.Caspar, Version=1.1.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Svt.Caspar.dll</HintPath>
+      <HintPath>dll\Svt.Caspar.dll</HintPath>
+    </Reference>
+    <Reference Include="Svt.Caspar.Controls">
+      <HintPath>dll\Svt.Caspar.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Svt.Network, Version=1.1.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Svt.Network.dll</HintPath>
+      <HintPath>dll\Svt.Network.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="L3Movie" itemID="59b56711-0000176c" lastModified="1505072801">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="L3Movie" itemID="59b56711-0000176c" lastModified="1505344813">
   <timeline>
     <DOMTimeline name="L3Movie">
       <layers>
@@ -6,45 +6,50 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMRectangleObject objectWidth="590.95" objectHeight="126.95" x="1" y="-0.95" lockFlag="true">
-                  <matrix>
-                    <Matrix a="1.06430053710938" tx="-1.05" ty="0.95"/>
-                  </matrix>
-                  <fill>
-                    <SolidColor color="#FFFFFF"/>
-                  </fill>
-                </DOMRectangleObject>
                 <DOMBitmapInstance libraryItemName="lsutv_master.png">
                   <matrix>
-                    <Matrix a="0.0551910400390625" d="0.055206298828125" tx="23" ty="18"/>
+                    <Matrix a="0.0551910400390625" d="0.055206298828125" tx="23" ty="12"/>
                   </matrix>
                 </DOMBitmapInstance>
                 <DOMDynamicText name="ProgramTitle" fontRenderingMode="standard" top="321.4" width="442.95" height="48" isSelectable="false">
                   <matrix>
-                    <Matrix tx="157" ty="-307.4"/>
+                    <Matrix tx="157" ty="-312.4"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Program Title</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="48" size="40" bitmapSize="800" face="Lato-Regular"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="43.2" size="36" bitmapSize="720" face="Lato-Regular"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="CountDownTime" selected="true" fontRenderingMode="standard" top="321.4" width="425" height="48" isSelectable="false">
+                <DOMDynamicText name="CountDownTime" fontRenderingMode="standard" top="321.4" width="425" height="52.75" isSelectable="false">
                   <matrix>
-                    <Matrix tx="157" ty="-255.4"/>
+                    <Matrix tx="157" ty="-260.4"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>00:00</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="48" size="40" bitmapSize="800" face="Lato-Regular"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="47.45" size="36" bitmapSize="720" face="RobotoMono-Regular"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="LSUTVGraphics2017.psd Asset/L3TwoLineLSUTV/Primary/Background">
+                  <matrix>
+                    <Matrix tx="-2" ty="-3"/>
+                  </matrix>
+                </DOMBitmapInstance>
               </elements>
             </DOMFrame>
           </frames>

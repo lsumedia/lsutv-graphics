@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CountdownSlab" itemID="59b51048-00001696" lastModified="1505081584">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="CountdownSlab" itemID="59b51048-00001696" lastModified="1505230482">
   <timeline>
     <DOMTimeline name="CountdownSlab">
       <layers>
@@ -28,7 +28,7 @@ function handle_timer(evt:Event):void{
 };*/]]></script>
               </Actionscript>
               <elements>
-                <DOMRectangleObject objectWidth="1000" objectHeight="650" x="-2" y="-0.95" lockFlag="true">
+                <DOMRectangleObject objectWidth="1000" objectHeight="650" x="-2" y="-0.95" selected="true" lockFlag="true">
                   <matrix>
                     <Matrix tx="-498" ty="0.95"/>
                   </matrix>
@@ -49,7 +49,7 @@ function handle_timer(evt:Event):void{
                     <DOMTextRun>
                       <characters>PROGRAM TITLE</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="63.3" size="48" bitmapSize="960" face="RobotoSlab-Regular"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="53.6" size="48" bitmapSize="960" face="RobotoSlab-Regular"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -62,12 +62,12 @@ function handle_timer(evt:Event):void{
                     <DOMTextRun>
                       <characters>00:00</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="94.95" size="72" bitmapSize="1440" face="RobotoSlab-Regular"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="94.95" size="72" bitmapSize="1440" face="RobotoMono-Regular"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="ProgramDate" selected="true" fontRenderingMode="standard" left="-412.85" width="896" height="63.3" isSelectable="false" lineType="multiline">
+                <DOMDynamicText name="ProgramDate" fontRenderingMode="standard" left="-412.85" width="896" height="63.3" isSelectable="false" lineType="multiline">
                   <matrix>
                     <Matrix tx="-35.15" ty="395.95"/>
                   </matrix>
@@ -75,7 +75,7 @@ function handle_timer(evt:Event):void{
                     <DOMTextRun>
                       <characters>TRANSMISSION DATE</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="63.3" size="48" bitmapSize="960" face="RobotoSlab-Regular"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="53.6" size="48" bitmapSize="960" face="RobotoSlab-Regular"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

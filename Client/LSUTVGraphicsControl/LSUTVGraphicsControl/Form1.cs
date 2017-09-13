@@ -181,5 +181,12 @@ namespace LSUTVGraphicsControl {
             cgData.SetData("ProgramStartTime", getProgramStartTime().ToString());
             this.caspar_.Channels[Properties.Settings.Default.CasparChannel].CG.Add(Properties.Settings.Default.GraphicsLayerCountdown, "COUNTDOWN_L3.XFL", true, cgData);
         }
+
+        private void button1_Click(object sender, EventArgs e) {
+            cgData.Clear();
+            cgData.SetData("ProgramTitle", programTitleField.Text);
+            cgData.SetData("ProgramStartTime", getProgramStartTime().ToString());
+            this.caspar_.Channels[Properties.Settings.Default.CasparChannel].CG.Update(Properties.Settings.Default.GraphicsLayerCountdown, cgData);
+        }
     }
 }

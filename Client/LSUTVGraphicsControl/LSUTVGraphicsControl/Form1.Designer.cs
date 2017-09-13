@@ -43,6 +43,7 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.statusStrip1 = new System.Windows.Forms.Panel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.Label();
+            this.updateTimerBtn = new System.Windows.Forms.Button();
             this.filePanel.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -164,6 +165,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.updateTimerBtn);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.programTitleField);
             this.panel1.Controls.Add(this.showCountdownL3Btn);
@@ -172,7 +174,7 @@
             this.panel1.Controls.Add(this.programStartField);
             this.panel1.Location = new System.Drawing.Point(11, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(355, 150);
+            this.panel1.Size = new System.Drawing.Size(355, 218);
             this.panel1.TabIndex = 2;
             // 
             // label4
@@ -189,14 +191,14 @@
             this.programTitleField.Location = new System.Drawing.Point(142, 54);
             this.programTitleField.Name = "programTitleField";
             this.programTitleField.Size = new System.Drawing.Size(200, 20);
-            this.programTitleField.TabIndex = 4;
+            this.programTitleField.TabIndex = 2;
             // 
             // showCountdownL3Btn
             // 
             this.showCountdownL3Btn.Location = new System.Drawing.Point(184, 89);
             this.showCountdownL3Btn.Name = "showCountdownL3Btn";
             this.showCountdownL3Btn.Size = new System.Drawing.Size(158, 44);
-            this.showCountdownL3Btn.TabIndex = 3;
+            this.showCountdownL3Btn.TabIndex = 4;
             this.showCountdownL3Btn.Text = "Countdown L3";
             this.showCountdownL3Btn.UseVisualStyleBackColor = true;
             this.showCountdownL3Btn.Click += new System.EventHandler(this.showCountdownL3Btn_Click);
@@ -206,7 +208,7 @@
             this.showTitleCardBtn.Location = new System.Drawing.Point(22, 89);
             this.showTitleCardBtn.Name = "showTitleCardBtn";
             this.showTitleCardBtn.Size = new System.Drawing.Size(155, 44);
-            this.showTitleCardBtn.TabIndex = 2;
+            this.showTitleCardBtn.TabIndex = 3;
             this.showTitleCardBtn.Text = "Title Card";
             this.showTitleCardBtn.UseVisualStyleBackColor = true;
             this.showTitleCardBtn.Click += new System.EventHandler(this.showTitleCardBtn_Click);
@@ -228,7 +230,7 @@
             this.programStartField.Location = new System.Drawing.Point(142, 15);
             this.programStartField.Name = "programStartField";
             this.programStartField.Size = new System.Drawing.Size(200, 20);
-            this.programStartField.TabIndex = 0;
+            this.programStartField.TabIndex = 1;
             this.programStartField.TabStop = false;
             // 
             // tabPage2
@@ -259,6 +261,16 @@
             this.toolStripStatusLabel1.TabIndex = 0;
             this.toolStripStatusLabel1.Text = "Disconnected";
             this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // updateTimerBtn
+            // 
+            this.updateTimerBtn.Location = new System.Drawing.Point(22, 150);
+            this.updateTimerBtn.Name = "updateTimerBtn";
+            this.updateTimerBtn.Size = new System.Drawing.Size(320, 48);
+            this.updateTimerBtn.TabIndex = 6;
+            this.updateTimerBtn.Text = "Save changes";
+            this.updateTimerBtn.UseVisualStyleBackColor = true;
+            this.updateTimerBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -305,6 +317,7 @@
         private System.Windows.Forms.TextBox programTitleField;
         private System.Windows.Forms.Panel statusStrip1;
         private System.Windows.Forms.Label toolStripStatusLabel1;
+        private System.Windows.Forms.Button updateTimerBtn;
     }
 }
 
