@@ -1,0 +1,17 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background/Background's Drop Shadow" itemID="59c04a1e-000000b8" lastModified="1505774110">
+  <timeline>
+    <DOMTimeline name="Background's Drop Shadow">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background/Assets/Background's Drop Shadow"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

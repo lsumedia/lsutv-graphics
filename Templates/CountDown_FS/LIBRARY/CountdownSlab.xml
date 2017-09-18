@@ -49,7 +49,7 @@ function handle_timer(evt:Event):void{
                     <DOMTextRun>
                       <characters>PROGRAM TITLE</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="53.6" size="48" bitmapSize="960" face="RobotoSlab-Regular"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="63.3" size="48" bitmapSize="960" face="RobotoSlab-Regular"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -75,7 +75,7 @@ function handle_timer(evt:Event):void{
                     <DOMTextRun>
                       <characters>TRANSMISSION DATE</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="53.6" size="48" bitmapSize="960" face="RobotoSlab-Regular"/>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="63.3" size="48" bitmapSize="960" face="RobotoSlab-Regular"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

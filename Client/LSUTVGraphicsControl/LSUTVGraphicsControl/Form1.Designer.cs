@@ -34,6 +34,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.updateTimerBtn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.programTitleField = new System.Windows.Forms.TextBox();
             this.showCountdownL3Btn = new System.Windows.Forms.Button();
@@ -43,12 +44,15 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.statusStrip1 = new System.Windows.Forms.Panel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.Label();
-            this.updateTimerBtn = new System.Windows.Forms.Button();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.filePanel.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
             // filePanel
@@ -177,6 +181,16 @@
             this.panel1.Size = new System.Drawing.Size(355, 218);
             this.panel1.TabIndex = 2;
             // 
+            // updateTimerBtn
+            // 
+            this.updateTimerBtn.Location = new System.Drawing.Point(22, 150);
+            this.updateTimerBtn.Name = "updateTimerBtn";
+            this.updateTimerBtn.Size = new System.Drawing.Size(320, 48);
+            this.updateTimerBtn.TabIndex = 6;
+            this.updateTimerBtn.Text = "Save changes";
+            this.updateTimerBtn.UseVisualStyleBackColor = true;
+            this.updateTimerBtn.Click += new System.EventHandler(this.button1_Click);
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -235,6 +249,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.splitContainer1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -262,15 +277,14 @@
             this.toolStripStatusLabel1.Text = "Disconnected";
             this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // updateTimerBtn
+            // splitContainer1
             // 
-            this.updateTimerBtn.Location = new System.Drawing.Point(22, 150);
-            this.updateTimerBtn.Name = "updateTimerBtn";
-            this.updateTimerBtn.Size = new System.Drawing.Size(320, 48);
-            this.updateTimerBtn.TabIndex = 6;
-            this.updateTimerBtn.Text = "Save changes";
-            this.updateTimerBtn.UseVisualStyleBackColor = true;
-            this.updateTimerBtn.Click += new System.EventHandler(this.button1_Click);
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(3, 3);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Size = new System.Drawing.Size(871, 436);
+            this.splitContainer1.SplitterDistance = 190;
+            this.splitContainer1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -289,8 +303,11 @@
             this.tabPage1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -318,6 +335,7 @@
         private System.Windows.Forms.Panel statusStrip1;
         private System.Windows.Forms.Label toolStripStatusLabel1;
         private System.Windows.Forms.Button updateTimerBtn;
+        private System.Windows.Forms.SplitContainer splitContainer1;
     }
 }
 

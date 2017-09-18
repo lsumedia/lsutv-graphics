@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Extension" itemID="59c04f06-00000280" lastModified="1505775379">
+  <timeline>
+    <DOMTimeline name="Extension">
+      <layers>
+        <DOMLayer name="Extension" color="#9933CC" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Text" color="#FF4FFF" parentLayerIndex="0" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="ExtensionText" left="-19.55" width="183.1" height="43.2" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="58.3" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Free Throw</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineSpacing="0" lineHeight="43.2" size="36" bitmapSize="720" face="Lato-Regular" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Rectangle 6" color="#FF800A" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Extension/Rectangle 6"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,187 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#00FF00" width="1920" height="1080" frameRate="50" currentTimeline="1" xflVersion="2.95" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 16.5 build 100" majorVersion="16" minorVersion="5" buildNumber="100" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="954C04A93E57C945B78A4603E37C47D1">
+     <folders>
+          <DOMFolderItem name="LSUTVGraphics2017.psd Asset" itemID="59c04a1d-000000a2" isExpanded="true"/>
+          <DOMFolderItem name="LSUTVGraphics2017.psd Asset/Sample Backgrounds" itemID="59c04a1d-000000a3"/>
+          <DOMFolderItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine" itemID="59c04a1d-000000aa" isExpanded="true"/>
+          <DOMFolderItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Extension" itemID="59c04a1d-000000ad" isExpanded="true"/>
+          <DOMFolderItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary" itemID="59c04a1e-000000b1"/>
+          <DOMFolderItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets" itemID="59c04a1e-000000b2"/>
+          <DOMFolderItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background" itemID="59c04a1e-000000b5"/>
+          <DOMFolderItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background/Assets" itemID="59c04a1e-000000b6"/>
+          <DOMFolderItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Numbers" itemID="59c04a1e-000000c1"/>
+          <DOMFolderItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Numbers/Assets" itemID="59c04a1e-000000c2"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background/Assets/Background" itemID="59c04a1e-000000be" sourceExternalFilepath="./LIBRARY/LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background/Assets/Background" sourceLastImported="1505774110" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background/Assets/Background" bitmapDataHRef="M 15 1505774110.dat" frameRight="38400" frameBottom="21600"/>
+          <DOMBitmapItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background/Assets/Background's Drop Shadow" itemID="59c04a1e-000000bb" sourceExternalFilepath="./LIBRARY/LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background/Assets/Background's Drop Shadow" sourceLastImported="1505774110" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background/Assets/Background's Drop Shadow" bitmapDataHRef="M 14 1505774110.dat" frameRight="10740" frameBottom="2240"/>
+          <DOMBitmapItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Numbers/Assets/Divider" itemID="59c04a1e-000000c5" sourceExternalFilepath="./LIBRARY/LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Numbers/Assets/Divider" sourceLastImported="1505774110" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="90" href="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Numbers/Assets/Divider" bitmapDataHRef="M 16 1505774110.dat" frameRight="38400" frameBottom="21600"/>
+          <DOMBitmapItem name="LSUTVGraphics2017.psd Asset/Sample Backgrounds/Layer 2" itemID="59c04a1d-000000a9" sourceExternalFilepath="./LIBRARY/LSUTVGraphics2017.psd Asset/Sample Backgrounds/Layer 2" sourceLastImported="1505774109" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="LSUTVGraphics2017.psd Asset/Sample Backgrounds/Layer 2" bitmapDataHRef="M 12 1505774109.dat" frameRight="34260" frameBottom="19440"/>
+          <DOMBitmapItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Rectangle 5" itemID="59c04a1e-000000ca" sourceExternalFilepath="./LIBRARY/LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Rectangle 5" sourceLastImported="1505774110" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="90" href="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Rectangle 5" bitmapDataHRef="M 17 1505774110.dat" frameRight="38400" frameBottom="21600"/>
+          <DOMBitmapItem name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Extension/Rectangle 6" itemID="59c04a1d-000000b0" sourceExternalFilepath="./LIBRARY/LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Extension/Rectangle 6" sourceLastImported="1505774109" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="90" href="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Extension/Rectangle 6" bitmapDataHRef="M 13 1505774109.dat" frameRight="5200" frameBottom="1000"/>
+          <DOMBitmapItem name="LSUTVGraphics2017.psd Asset/Sample Backgrounds/White" itemID="59c04a1d-000000a6" sourceExternalFilepath="./LIBRARY/LSUTVGraphics2017.psd Asset/Sample Backgrounds/White" sourceLastImported="1505774109" allowSmoothing="true" originalCompressionType="lossless" quality="90" href="LSUTVGraphics2017.psd Asset/Sample Backgrounds/White" bitmapDataHRef="M 11 1505774109.dat" frameRight="38400" frameBottom="21600"/>
+     </media>
+     <symbols>
+          <Include href="Extension.xml" loadImmediate="false" itemID="59c04f06-00000280" lastModified="1505775379"/>
+          <Include href="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background/Background.xml" loadImmediate="false" itemID="59c04a1e-000000c0" lastModified="1505774110"/>
+          <Include href="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Background/Background's Drop Shadow.xml" loadImmediate="false" itemID="59c04a1e-000000b8" lastModified="1505774110"/>
+          <Include href="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Background.xml" loadImmediate="false" itemID="59c04a1e-000000b4" lastModified="1505774110"/>
+          <Include href="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Numbers/Divider.xml" loadImmediate="false" itemID="59c04a1e-000000c7" lastModified="1505774110"/>
+          <Include href="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Rectangle 5.xml" loadImmediate="false" itemID="59c04a1e-000000cc" lastModified="1505774876"/>
+          <Include href="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/ScorebugTwoLine.xml" loadImmediate="false" itemID="59c04a1d-000000ac" lastModified="1505775306"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="26">
+               <layers>
+                    <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="7" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="50000" Version="1" duration="7000"><TimeMap strength="0" type="Quadratic"/><TimeMap strength="50" type="Quadratic"/><metadata><names><name langID="en_GB" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="76.805" xformPtYOffsetPct="4.3415" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property TimeMapIndex="1" enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,99.9985" next="0,99.9985" previous="0,99.9985" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="6000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Rectangle 5" selected="true" centerPoint3DX="196.8" centerPoint3DY="539.45">
+                                             <matrix>
+                                                  <Matrix d="0.999984741210938" tx="191.85" ty="109.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="768" y="434.1"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="114" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Rectangle 5" centerPoint3DX="196.95" centerPoint3DY="158.2">
+                                             <matrix>
+                                                  <Matrix d="0.999984741210938" tx="192" ty="108"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="768" y="432.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="121" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="50000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_GB" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="76.805" xformPtYOffsetPct="4.315" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,99.9985" next="0,99.9985" previous="0,99.9985" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="9000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Rectangle 5" centerPoint3DX="196.95" centerPoint3DY="158.2">
+                                             <matrix>
+                                                  <Matrix d="0.999984741210938" tx="192" ty="109.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="768" y="431.45"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 3" color="#FF800A" visible="false" layerType="mask">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="114" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!3839 2159|15668 2159!15668 2159|15668 5441!15668 5441|3839 5441!3839 5441|3839 2159"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="ScorebugTwoLine" color="#9933CC" parentLayerIndex="1" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="114" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="50000" Version="1" duration="114000"><TimeMap strength="0" type="Quadratic"/><TimeMap strength="50" type="DualQuintic"/><metadata><names><name langID="en_GB" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.759755" xformPtYOffsetPct="3.20553" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property TimeMapIndex="1" enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,515.481" next="0,515.481" previous="0,515.481" roving="0" timevalue="31000"/><Keyframe anchor="0,515.468" next="0,515.468" previous="0,515.468" roving="0" timevalue="88000"/><Keyframe anchor="0,0.435" next="0,0.435" previous="0,0.435" roving="0" timevalue="113000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="31000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="88000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="113000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="88000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/ScorebugTwoLine">
+                                             <matrix>
+                                                  <Matrix tx="-515.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="960" y="540"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="1" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="39" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="39" duration="55" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="50000" Version="1" duration="55000"><TimeMap strength="0" type="Quadratic"/><TimeMap strength="50" type="DualQuadratic"/><metadata><names><name langID="en_GB" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property TimeMapIndex="1" enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="31000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="54000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,50" next="0,50" previous="0,50" roving="0" timevalue="31000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="54000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Extension">
+                                             <matrix>
+                                                  <Matrix tx="191.95" ty="157.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="130" y="25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer 1" color="#808080">
+                         <frames>
+                              <DOMFrame index="0" duration="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="31" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="38" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="39" duration="31" name="subin" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="70" duration="24" name="subout" labelType="name" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="94" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[stop();]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="95" duration="36" name="outro" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts/>
+     <persistentData>
+          <PD n="templateInfo" v='&lt;ctSettings optimizeImages="true" optimizeTextFields="true" optimizeVideos="true" textThickness="20" textSharpness="-168"&gt;&#xA;  &lt;templateInfo/&gt;&#xA;&lt;/ctSettings&gt;'/>
+     </persistentData>
+     <PrinterSettings/>
+     <publishHistory/>
+</DOMDocument>

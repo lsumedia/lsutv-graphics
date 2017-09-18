@@ -1,0 +1,199 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/ScorebugTwoLine" itemID="59c04a1d-000000ac" lastModified="1505775306">
+  <timeline>
+    <DOMTimeline name="ScorebugTwoLine">
+      <layers>
+        <DOMLayer name="Primary" color="#009999" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Numbers" color="#9933CC" parentLayerIndex="0" autoNamed="false" open="false" layerType="folder"/>
+        <DOMLayer name="Divider" color="#669900" parentLayerIndex="1" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Numbers/Divider">
+                  <matrix>
+                    <Matrix tx="552" ty="119"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="408" y="421"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.80078125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="1st" color="#808080" parentLayerIndex="1" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="MatchPart" left="38.6" width="66.8" height="57.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="568.6" ty="103.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>1st</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" lineSpacing="0" lineHeight="57.6" size="48" bitmapSize="960" face="Lato-Regular"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="15:00" color="#009999" parentLayerIndex="1" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="MatchClock" left="10.15" width="123.7" height="57.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="569.1" ty="150.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>15:00</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineSpacing="0" lineHeight="57.6" size="48" bitmapSize="960" face="Lato-Regular"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Team2Score" color="#FF4FFF" parentLayerIndex="1" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="Team2Score" left="44.05" width="55.9" height="57.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="428.6" ty="150.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>12</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" lineSpacing="0" lineHeight="57.6" size="48" bitmapSize="960" face="Lato-Regular"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Team1Score" color="#FF800A" parentLayerIndex="1" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="Team1Score" left="44.05" width="55.9" height="57.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="428.6" ty="106.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>10</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" lineSpacing="0" lineHeight="57.6" size="48" bitmapSize="960" face="Lato-Regular"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText width="6.2" height="48" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="1196.55" ty="72.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="48" size="40" bitmapSize="800" face="Lato-Regular"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Team2Name" color="#FF4F4F" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="Team2Name" width="246" height="45.8" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="215.5" ty="155.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Nottingham</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0" lineHeight="43.2" size="36" bitmapSize="720" face="Lato-Regular"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Team1Name" color="#669900" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="Team1Name" width="246" height="48" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="215.5" ty="109.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Loughborough</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0" lineHeight="43.2" size="36" bitmapSize="720" face="Lato-Regular"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#808080" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Background">
+                  <matrix>
+                    <Matrix tx="186" ty="105"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="774" y="435"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

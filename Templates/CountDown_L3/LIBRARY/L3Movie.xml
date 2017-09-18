@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="L3Movie" itemID="59b56711-0000176c" lastModified="1505344813">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="L3Movie" itemID="59b56711-0000176c" lastModified="1505773327">
   <timeline>
     <DOMTimeline name="L3Movie">
       <layers>
@@ -8,12 +8,12 @@
               <elements>
                 <DOMBitmapInstance libraryItemName="lsutv_master.png">
                   <matrix>
-                    <Matrix a="0.0551910400390625" d="0.055206298828125" tx="23" ty="12"/>
+                    <Matrix a="0.0551910400390625" d="0.055206298828125" tx="24" ty="16"/>
                   </matrix>
                 </DOMBitmapInstance>
                 <DOMDynamicText name="ProgramTitle" fontRenderingMode="standard" top="321.4" width="442.95" height="48" isSelectable="false">
                   <matrix>
-                    <Matrix tx="157" ty="-312.4"/>
+                    <Matrix tx="157" ty="-309.4"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -26,7 +26,7 @@
                 </DOMDynamicText>
                 <DOMDynamicText name="CountDownTime" fontRenderingMode="standard" top="321.4" width="425" height="52.75" isSelectable="false">
                   <matrix>
-                    <Matrix tx="157" ty="-260.4"/>
+                    <Matrix tx="157" ty="-257.4"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
@@ -41,15 +41,27 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 2" color="#9933CC">
+        <DOMLayer name="Layer 3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="L3TwoLineLSUTV" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Primary" color="#009999" parentLayerIndex="3" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Background" color="#808080" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance libraryItemName="LSUTVGraphics2017.psd Asset/L3TwoLineLSUTV/Primary/Background">
-                  <matrix>
-                    <Matrix tx="-2" ty="-3"/>
-                  </matrix>
-                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="LSUTVGraphics2017.psd Asset 1/L3TwoLineLSUTV/Primary/Background"/>
               </elements>
             </DOMFrame>
           </frames>

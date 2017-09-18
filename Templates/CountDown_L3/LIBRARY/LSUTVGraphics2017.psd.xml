@@ -1,32 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LSUTVGraphics2017.psd" itemID="59b9bc73-00000178" symbolType="graphic" lastModified="1505344627">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LSUTVGraphics2017.psd" itemID="59b9bc73-00000178" symbolType="graphic" lastModified="1505773089">
   <timeline>
     <DOMTimeline name="LSUTVGraphics2017.psd">
       <layers>
         <DOMLayer name="LSUTVGraphics2017.psd" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMBitmapInstance selected="true" libraryItemName="LSUTVGraphics2017.psd Asset/L3TwoLineLSUTV/Primary/Background">
-                  <matrix>
-                    <Matrix tx="186" ty="849"/>
-                  </matrix>
-                </DOMBitmapInstance>
-                <DOMBitmapInstance selected="true" libraryItemName="LSUTVGraphics2017.psd Asset/L3TwoLineLSUTV/Primary/MatchTime">
-                  <matrix>
-                    <Matrix tx="362" ty="924"/>
-                  </matrix>
-                </DOMBitmapInstance>
-                <DOMBitmapInstance selected="true" libraryItemName="LSUTVGraphics2017.psd Asset/L3TwoLineLSUTV/Primary/Logo">
-                  <matrix>
-                    <Matrix tx="219" ty="864"/>
-                  </matrix>
-                </DOMBitmapInstance>
-                <DOMBitmapInstance selected="true" libraryItemName="LSUTVGraphics2017.psd Asset/L3TwoLineLSUTV/Primary/MatchTime copy">
-                  <matrix>
-                    <Matrix tx="363" ty="873"/>
-                  </matrix>
-                </DOMBitmapInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

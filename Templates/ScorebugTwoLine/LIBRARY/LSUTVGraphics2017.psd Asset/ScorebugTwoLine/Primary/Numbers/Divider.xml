@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Numbers/Divider" itemID="59c04a1e-000000c7" lastModified="1505774110">
+  <timeline>
+    <DOMTimeline name="Divider">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-552" ty="-119"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!11039 2379|11059 2379!11059 2379|11059 3959!11059 3959|11039 3959!11039 3959|11039 2379"/>
+                    <Edge cubics="!11039 2379(;11039,2379 11059,2379 11059,2379q11039 2379 11059 2379);"/>
+                    <Edge cubics="!11059 2379(;11059,2379 11059,3959 11059,3959q11059 2379 11059 3959);"/>
+                    <Edge cubics="!11059 3959(;11059,3959 11039,3959 11039,3959q11059 3959 11039 3959);"/>
+                    <Edge cubics="!11039 3959(;11039,3959 11039,2379 11039,2379q11039 3959 11039 2379);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" parentLayerIndex="0">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Numbers/Assets/Divider">
+                  <matrix>
+                    <Matrix tx="-552" ty="-119"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

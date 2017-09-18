@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Rectangle 5" itemID="59c04a1e-000000cc" lastModified="1505774876">
+  <timeline>
+    <DOMTimeline name="Rectangle 5">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!-1 -1|199 -1!199 -1|199 1999!199 1999|-1 1999!-1 1999|-1 -1"/>
+                    <Edge cubics="!-1 -1(;-1,-1 199,-1 199,-1q-1 -1 199 -1);"/>
+                    <Edge cubics="!199 -1(;199,-1 199,1999 199,1999q199 -1 199 1999);"/>
+                    <Edge cubics="!199 1999(;199,1999 -1,1999 -1,1999q199 1999 -1 1999);"/>
+                    <Edge cubics="!-1 1999(;-1,1999 -1,-1 -1,-1q-1 1999 -1 -1);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4F80FF" parentLayerIndex="0">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="LSUTVGraphics2017.psd Asset/ScorebugTwoLine/Primary/Assets/Rectangle 5">
+                  <matrix>
+                    <Matrix tx="-192" ty="-108"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
