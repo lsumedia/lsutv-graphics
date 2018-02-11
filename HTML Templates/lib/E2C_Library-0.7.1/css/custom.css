@@ -1,0 +1,11 @@
+/* 
+	These classes can be used directly in properties sections "class=" part.
+	Use !important on each style to make sure it overrides editor values..
+
+.imredtext
+ {
+    color: red !important;
+}
+
+*/
+

@@ -1,0 +1,2 @@
+<script type="text/javascript" charset="utf-8" src="js/E2C_Libraries-0.7.1.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/E2C_Main-0.7.1.js"></script>

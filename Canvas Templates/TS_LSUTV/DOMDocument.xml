@@ -1,0 +1,74 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#00FF00" backgroundAlpha="0" width="1920" height="1080" frameRate="50" currentTimeline="1" xflVersion="2.96" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 18.0 build 107" majorVersion="18" buildNumber="107" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="540" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="9204F94409853B4F85065BC8BF6F2CB6">
+     <folders>
+          <DOMFolderItem name="LSUTVSquare.ai" itemID="5a7f6571-00000007"/>
+          <DOMFolderItem name="LSUTVSquare.ai/Layer 1" itemID="5a7f6571-00000008"/>
+     </folders>
+     <symbols>
+          <Include href="LSUTVSquare.xml" loadImmediate="false" itemID="5a7f65bb-0000000c" lastModified="1518298555"/>
+          <Include href="LSUTVSquare.ai/Layer 1/&amp;#060Path&amp;#062.xml" loadImmediate="false" itemID="5a7f6571-0000000a" lastModified="1518298481"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="49">
+               <layers>
+                    <DOMLayer name="LSUTVSquare.ai" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="49" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="circOut">
+                                   <tweens>
+                                        <Ease target="all" method="circOut"/>
+                                   </tweens>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="LSUTVSquare">
+                                             <matrix>
+                                                  <Matrix tx="402" ty="1081"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60" y="60"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="49" duration="50" tweenType="motion" motionTweenSnap="true" keyMode="22017" easeMethodName="circIn">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.stop();
+setTimeout(() => this.play(), 2000);]]></script>
+                                   </Framescript>
+                                   <tweens>
+                                        <Ease target="all" method="circIn"/>
+                                   </tweens>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="LSUTVSquare" selected="true" centerPoint3DX="462" centerPoint3DY="584">
+                                             <matrix>
+                                                  <Matrix tx="402" ty="524"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60" y="60"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="99" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="LSUTVSquare" centerPoint3DX="462" centerPoint3DY="1141">
+                                             <matrix>
+                                                  <Matrix tx="402" ty="1081"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="60" y="60"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts>
+          <GlobalScripts language="Javascript"/>
+     </scripts>
+     <persistentData>
+          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+     </persistentData>
+     <PrinterSettings/>
+     <publishHistory/>
+</DOMDocument>

@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LSUTVSquare.ai/Layer 1/&amp;#060Path&amp;#062" itemID="5a7f6571-0000000a" lastModified="1518298481">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#EC2228"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!2400 2400|0 2400!0 2400|0 0!0 0|2400 0!2400 0|2400 2400"/>
+                    <Edge cubics="!2400 2400(;2400,2400 0,2400 0,2400q2400 2400 0 2400);"/>
+                    <Edge cubics="!0 2400(;0,2400 0,0 0,0q0 2400 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 2400,0 2400,0q0 0 2400 0);"/>
+                    <Edge cubics="!2400 0(;2400,0 2400,2400 2400,2400q2400 0 2400 2400);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
