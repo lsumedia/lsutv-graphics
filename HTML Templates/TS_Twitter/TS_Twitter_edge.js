@@ -30,36 +30,30 @@
                         {
                             id: 'TombstoneMain',
                             type: 'group',
-                            rect: ['192', '1081px', '420', '640', 'auto', 'auto'],
+                            rect: ['192', '1081px', '420', '432px', 'auto', 'auto'],
+                            overflow: 'visible',
                             c: [
                             {
                                 id: 'Background',
                                 type: 'rect',
-                                rect: ['1px', '0px', '420px', '640px', 'auto', 'auto'],
+                                rect: ['1px', '0px', '420px', '432px', 'auto', 'auto'],
                                 fill: ["rgba(255,255,255,1.00)"],
                                 stroke: [0,"rgb(0, 0, 0)","none"],
-                                boxShadow: ["", 0, 7, 5, 0, "rgba(0,0,0,0.20)"]
-                            },
-                            {
-                                id: '_image',
-                                type: 'rect',
-                                rect: ['0px', '10px', '420px', '420px', 'auto', 'auto'],
-                                fill: ["rgba(185,43,43,1.00)"],
-                                stroke: [1,"rgb(0, 0, 0)","none"]
+                                boxShadow: ["", 3, 7, 5, 0, "rgba(0,0,0,0.20)"]
                             },
                             {
                                 id: 'Profile',
                                 type: 'group',
-                                rect: ['124px', '449px', '171', '60', 'auto', 'auto'],
+                                rect: ['124px', '77px', '171', '60', 'auto', 'auto'],
                                 c: [
                                 {
-                                    id: '_description',
+                                    id: '_content',
                                     type: 'text',
-                                    rect: ['-95px', '86px', '364px', '94px', 'auto', 'auto'],
+                                    rect: ['-95px', '86px', '364px', '220px', 'auto', 'auto'],
                                     overflow: 'hidden',
-                                    text: "<p style=\"margin: 0px;\">​Shorter text description about the image, font should be constant but we don't need to have the full text displa..<span style=\"color: rgba(0, 0, 0, 0.137255);\">​</span></p>",
+                                    text: "<p style=\"margin: 0px;\">​Despite the constant negative press covfefe<span style=\"color: rgba(0, 0, 0, 0.137255);\"></span></p>",
                                     align: "left",
-                                    font: ['lato, sans-serif', [21, "px"], "rgba(0,0,0,1.00)", "500", "none", "normal", "break-word", "normal"],
+                                    font: ['lato, sans-serif', [32, "px"], "rgba(0,0,0,1.00)", "500", "none", "normal", "break-word", "normal"],
                                     textStyle: ["", "", "", "", "none"]
                                 },
                                 {
@@ -92,7 +86,7 @@
                                 id: 'Topbar',
                                 type: 'rect',
                                 rect: ['0px', '0px', '420px', '10px', 'auto', 'auto'],
-                                fill: ["rgba(138,58,185,1.00)"],
+                                fill: ["rgba(0,172,237,1.00)"],
                                 stroke: [0,"rgb(0, 0, 0)","none"]
                             }]
                         },
@@ -101,8 +95,8 @@
                             type: 'image',
                             rect: ['342px', '1150px', '120px', '120px', 'auto', 'auto'],
                             opacity: '1',
-                            fill: ["rgba(0,0,0,0)",im+"InstaSquare.svg",'0px','0px'],
-                            boxShadow: ["", 7, 7, 5, 0, "rgba(0,0,0,0.12)"]
+                            fill: ["rgba(0,0,0,0)",im+"TwitterSquare.svg",'0px','0px'],
+                            boxShadow: ["", 0, 7, 5, 0, "rgba(0,0,0,0.12)"]
                         }
                     ],
                     style: {
@@ -122,16 +116,6 @@
                     },
                     data: [
                         [
-                            "eid47",
-                            "boxShadow.offsetH",
-                            880,
-                            0,
-                            "linear",
-                            "${InstaSquare}",
-                            '7px',
-                            '7px'
-                        ],
-                        [
                             "eid48",
                             "boxShadow.offsetV",
                             880,
@@ -149,7 +133,7 @@
                             "easeOutExpo",
                             "${TombstoneMain}",
                             '1081px',
-                            '332px'
+                            '540px'
                         ],
                         [
                             "eid44",
@@ -158,7 +142,7 @@
                             1000,
                             "easeInExpo",
                             "${TombstoneMain}",
-                            '332px',
+                            '540px',
                             '1081px'
                         ],
                         [
@@ -172,6 +156,16 @@
                             'rgba(0,0,0,0.12)'
                         ],
                         [
+                            "eid51",
+                            "height",
+                            1000,
+                            0,
+                            "linear",
+                            "${TombstoneMain}",
+                            '432px',
+                            '432px'
+                        ],
+                        [
                             "eid8",
                             "top",
                             0,
@@ -179,17 +173,7 @@
                             "easeOutExpo",
                             "${InstaSquare}",
                             '1150px',
-                            '248px'
-                        ],
-                        [
-                            "eid9",
-                            "top",
-                            1500,
-                            0,
-                            "easeInOutCubic",
-                            "${InstaSquare}",
-                            '248px',
-                            '248px'
+                            '464px'
                         ],
                         [
                             "eid12",
@@ -198,7 +182,7 @@
                             1000,
                             "easeInExpo",
                             "${InstaSquare}",
-                            '248px',
+                            '464px',
                             '1150px'
                         ],
                         [
@@ -218,5 +202,5 @@
 
     AdobeEdge.registerCompositionDefn(compId, symbols, fonts, scripts, resources, opts);
 
-    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("TS_Instagram_edgeActions.js");
+    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("TS_Twitter_edgeActions.js");
 })("EDGE-478761831");
