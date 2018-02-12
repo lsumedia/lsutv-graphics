@@ -112,7 +112,16 @@ function next () {			// CASPAR CG - NEXT
 function update(str) {		// CASPAR CG - UPDATE
 	parseCaspar(str);		// <- don't remove
 	// insert code here
-
+	
+	var xmlDoc = parser.parseFromString(str, 'text/xml');
+	
+	try{
+		displayPic = xmlDoc.getElementById('_displaypic').childNodes[0].attributes.value.nodeValue;
+		document.getElementById('Stage_displaypic').style.backgroundImage = "url(" + displayPic + ")";
+	}catch(err){
+		console.log("Error reading image for '_displaypic'");
+		console.error(err);
+	}
 
 }
 

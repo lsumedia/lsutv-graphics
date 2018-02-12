@@ -75,7 +75,7 @@
                                     textStyle: ["", "", "", "", "none"]
                                 },
                                 {
-                                    id: '_displaypic',
+                                    id: 'displaypic',
                                     type: 'rect',
                                     rect: ['-95px', '-3px', '75px', '75px', 'auto', 'auto'],
                                     fill: ["rgba(0,0,0,1.00)"],
@@ -109,16 +109,16 @@
                     }
                 },
                 timeline: {
-                    duration: 3000,
+                    duration: 3250,
                     autoPlay: true,
                     labels: {
-                        "outro": 1500
+                        "outro": 1750
                     },
                     data: [
                         [
                             "eid48",
                             "boxShadow.offsetV",
-                            880,
+                            1130,
                             0,
                             "linear",
                             "${InstaSquare}",
@@ -128,7 +128,7 @@
                         [
                             "eid41",
                             "top",
-                            0,
+                            250,
                             1000,
                             "easeOutExpo",
                             "${TombstoneMain}",
@@ -138,7 +138,7 @@
                         [
                             "eid44",
                             "top",
-                            2000,
+                            2250,
                             1000,
                             "easeInExpo",
                             "${TombstoneMain}",
@@ -148,7 +148,7 @@
                         [
                             "eid50",
                             "boxShadow.color",
-                            880,
+                            1130,
                             0,
                             "linear",
                             "${InstaSquare}",
@@ -158,7 +158,7 @@
                         [
                             "eid51",
                             "height",
-                            1000,
+                            1250,
                             0,
                             "linear",
                             "${TombstoneMain}",
@@ -168,7 +168,7 @@
                         [
                             "eid8",
                             "top",
-                            0,
+                            250,
                             1000,
                             "easeOutExpo",
                             "${InstaSquare}",
@@ -178,7 +178,7 @@
                         [
                             "eid12",
                             "top",
-                            2000,
+                            2250,
                             1000,
                             "easeInExpo",
                             "${InstaSquare}",
@@ -188,7 +188,7 @@
                         [
                             "eid49",
                             "boxShadow.blur",
-                            880,
+                            1130,
                             0,
                             "linear",
                             "${InstaSquare}",
