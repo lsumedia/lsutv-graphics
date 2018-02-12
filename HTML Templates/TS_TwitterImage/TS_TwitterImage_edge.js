@@ -92,7 +92,7 @@
                                 id: 'Topbar',
                                 type: 'rect',
                                 rect: ['0px', '0px', '420px', '10px', 'auto', 'auto'],
-                                fill: ["rgba(138,58,185,1.00)"],
+                                fill: ["rgba(0,172,237,1.00)"],
                                 stroke: [0,"rgb(0, 0, 0)","none"]
                             }]
                         },
@@ -101,7 +101,7 @@
                             type: 'image',
                             rect: ['342px', '1150px', '120px', '120px', 'auto', 'auto'],
                             opacity: '1',
-                            fill: ["rgba(0,0,0,0)",im+"InstaSquare.svg",'0px','0px'],
+                            fill: ["rgba(0,0,0,0)",im+"Twitter.svg",'0px','0px'],
                             boxShadow: ["", 7, 7, 5, 0, "rgba(0,0,0,0.12)"]
                         }
                     ],
@@ -218,5 +218,5 @@
 
     AdobeEdge.registerCompositionDefn(compId, symbols, fonts, scripts, resources, opts);
 
-    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("TS_Instagram_edgeActions.js");
+    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("TS_TwitterImage_edgeActions.js");
 })("EDGE-478761831");

@@ -60,10 +60,10 @@ Settings
 
 */
 
-var debug_buttons = true;													// show debug buttons, for local browser testing, disable for production
+var debug_buttons = false;													// show debug buttons, for local browser testing, disable for production
 var debug_floating = true;													// use floating debug panel, draggable
 
-var data_useExternal = true;	 											// set true to use Ajax to get data from external datasource
+var data_useExternal = false;	 											// set true to use Ajax to get data from external datasource
 var data_externalType = 'XML'; 												// if we use external data, is it XML, JSON or JSONP
 var data_typeCasparXML = false;												// is external XML data styled as Caspar Template Data
 var data_clientDataAsExternalParameters = false;							// pass Caspar Client data to external url as GET parameters

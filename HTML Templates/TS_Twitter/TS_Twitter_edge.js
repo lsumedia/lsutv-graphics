@@ -39,7 +39,7 @@
                                 rect: ['1px', '0px', '420px', '432px', 'auto', 'auto'],
                                 fill: ["rgba(255,255,255,1.00)"],
                                 stroke: [0,"rgb(0, 0, 0)","none"],
-                                boxShadow: ["", 3, 7, 5, 0, "rgba(0,0,0,0.20)"]
+                                boxShadow: ["", 2, 5, 8, 0, "rgba(0,0,0,0.20)"]
                             },
                             {
                                 id: 'Profile',
@@ -51,7 +51,7 @@
                                     type: 'text',
                                     rect: ['-95px', '86px', '364px', '220px', 'auto', 'auto'],
                                     overflow: 'hidden',
-                                    text: "<p style=\"margin: 0px;\">​Despite the constant negative press covfefe<span style=\"color: rgba(0, 0, 0, 0.137255);\"></span></p>",
+                                    text: "<p style=\"margin: 0px;\">​_content<span style=\"color: rgba(0, 0, 0, 0.137255);\"></span></p>",
                                     align: "left",
                                     font: ['lato, sans-serif', [32, "px"], "rgba(0,0,0,1.00)", "500", "none", "normal", "break-word", "normal"],
                                     textStyle: ["", "", "", "", "none"]
@@ -60,7 +60,7 @@
                                     id: '_fullname',
                                     type: 'text',
                                     rect: ['0px', '0px', 'auto', 'auto', 'auto', 'auto'],
-                                    text: "<p style=\"margin: 0px;\">​Tyrion Lannister</p>",
+                                    text: "<p style=\"margin: 0px;\">​_fullname</p>",
                                     align: "left",
                                     font: ['lato, sans-serif', [24, "px"], "rgba(0,0,0,1)", "400", "none", "normal", "break-word", "nowrap"],
                                     textStyle: ["", "", "", "", "none"]
@@ -69,7 +69,7 @@
                                     id: '_handle',
                                     type: 'text',
                                     rect: ['2px', '31px', 'auto', 'auto', 'auto', 'auto'],
-                                    text: "<p style=\"margin: 0px;\">​@therealhalfman<span style=\"font-size: 18px;\">​</span></p>",
+                                    text: "<p style=\"margin: 0px;\">​_handle</p>",
                                     align: "left",
                                     font: ['lato, sans-serif', [21, "px"], "rgba(68,68,68,1.00)", "500", "none", "normal", "break-word", "nowrap"],
                                     textStyle: ["", "", "", "", "none"]
@@ -78,7 +78,7 @@
                                     id: '_displaypic',
                                     type: 'rect',
                                     rect: ['-95px', '-3px', '75px', '75px', 'auto', 'auto'],
-                                    fill: ["rgba(185,43,43,1)"],
+                                    fill: ["rgba(0,0,0,1.00)"],
                                     stroke: [1,"rgb(0, 0, 0)","none"]
                                 }]
                             },

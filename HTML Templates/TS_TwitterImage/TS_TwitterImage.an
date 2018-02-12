@@ -1,7 +1,7 @@
 
 {
 
-	"HTMLFileName":"TS_Instagram.html",
+	"HTMLFileName":"TS_TwitterImage.html",
 	"expanded:images/InstaSquare.svg":"nil",
 	"expanded:images/Pasted.svg":"nil",
 	"ModelData":"{\
@@ -22,6 +22,7 @@
 	"expanded:images/Instagram2.svg":"nil",
 	"expanded:images/Instagram.svg":"nil",
 	"pref__general__FilterNonAnimatedElements":"false",
+	"expanded:images/Twitter.svg":"nil",
 	"pref__general__AutoKeyframePropertiesArmed":"false",
 	"stage-Default Timeline_mark_ms":"-1",
 	"symbol_stage":{
@@ -46,6 +47,12 @@
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
 			"timelineColor":"0x2f73ad"},
+		"dummyStageParentWidth":"1920px",
+		"element_${Twitter}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
+			"timelineColor":"0xfb657a"},
 		"element_${Instagram22}":{
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
@@ -100,7 +107,11 @@
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
 			"timelineColor":"0x00bda4"},
-		"dummyStageParentWidth":"1920px",
+		"element_${Twitter2}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"false",
+			"timelineColor":"0xdb619d"},
 		"element_${Topbar}":{
 			"timelineColor2":"0xba5b89",
 			"timelineColor3":"0x734a5f",
@@ -133,10 +144,10 @@
 	"StageZoomFactor":"100",
 	"pixelsPerMs":"0.2",
 	"expanded:images/Pasted2.svg":"nil",
-	"stage-Default Timeline_playhead_ms":"1655",
+	"stage-Default Timeline_playhead_ms":"1000",
 	"usedBOM":"false",
 	"ShowRulers":"true",
 	"pref__general__TimelineShowGrid":"true",
-	"nextElementColorIndex":"11",
+	"nextElementColorIndex":"13",
 	"expanded:images/TS_Instagram.svg":"nil",
 	"viewStartY":"0"}
