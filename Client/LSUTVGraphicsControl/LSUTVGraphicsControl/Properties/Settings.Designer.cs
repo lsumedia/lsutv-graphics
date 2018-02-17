@@ -49,5 +49,53 @@ namespace LSUTVGraphicsControl.Properties {
                 return ((int)(this["GraphicsLayerCountdown"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TwitterAPIKey {
+            get {
+                return ((string)(this["TwitterAPIKey"]));
+            }
+            set {
+                this["TwitterAPIKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TwitterAPISecret {
+            get {
+                return ((string)(this["TwitterAPISecret"]));
+            }
+            set {
+                this["TwitterAPISecret"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string InstagramAPIKey {
+            get {
+                return ((string)(this["InstagramAPIKey"]));
+            }
+            set {
+                this["InstagramAPIKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string InstagramAPISecret {
+            get {
+                return ((string)(this["InstagramAPISecret"]));
+            }
+            set {
+                this["InstagramAPISecret"] = value;
+            }
+        }
     }
 }

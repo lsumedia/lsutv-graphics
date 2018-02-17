@@ -188,5 +188,9 @@ namespace LSUTVGraphicsControl {
             cgData.SetData("ProgramStartTime", getProgramStartTime().ToString());
             this.caspar_.Channels[Properties.Settings.Default.CasparChannel].CG.Update(Properties.Settings.Default.GraphicsLayerCountdown, cgData);
         }
+
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e) {
+
+        }
     }
 }

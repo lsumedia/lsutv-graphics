@@ -23,6 +23,7 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            this.components = new System.ComponentModel.Container();
             this.filePanel = new System.Windows.Forms.Panel();
             this.connectServerBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,17 +43,21 @@
             this.label3 = new System.Windows.Forms.Label();
             this.programStartField = new System.Windows.Forms.DateTimePicker();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.statusStrip1 = new System.Windows.Forms.Panel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.Label();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.filePanel.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // filePanel
@@ -67,7 +72,7 @@
             this.filePanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.filePanel.Location = new System.Drawing.Point(0, 0);
             this.filePanel.Name = "filePanel";
-            this.filePanel.Size = new System.Drawing.Size(885, 29);
+            this.filePanel.Size = new System.Drawing.Size(1059, 29);
             this.filePanel.TabIndex = 0;
             // 
             // connectServerBtn
@@ -84,7 +89,7 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(422, 9);
+            this.label1.Location = new System.Drawing.Point(596, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 13);
             this.label1.TabIndex = 4;
@@ -105,7 +110,7 @@
             this.programTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.programTime.AutoSize = true;
             this.programTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.programTime.Location = new System.Drawing.Point(519, 3);
+            this.programTime.Location = new System.Drawing.Point(693, 3);
             this.programTime.Name = "programTime";
             this.programTime.Size = new System.Drawing.Size(80, 24);
             this.programTime.TabIndex = 3;
@@ -115,7 +120,7 @@
             // clearChannelBtn
             // 
             this.clearChannelBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.clearChannelBtn.Location = new System.Drawing.Point(742, 3);
+            this.clearChannelBtn.Location = new System.Drawing.Point(916, 3);
             this.clearChannelBtn.Name = "clearChannelBtn";
             this.clearChannelBtn.Size = new System.Drawing.Size(131, 23);
             this.clearChannelBtn.TabIndex = 2;
@@ -126,7 +131,7 @@
             // dissolveGraphicsBtn
             // 
             this.dissolveGraphicsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.dissolveGraphicsBtn.Location = new System.Drawing.Point(605, 3);
+            this.dissolveGraphicsBtn.Location = new System.Drawing.Point(779, 3);
             this.dissolveGraphicsBtn.Name = "dissolveGraphicsBtn";
             this.dissolveGraphicsBtn.Size = new System.Drawing.Size(131, 23);
             this.dissolveGraphicsBtn.TabIndex = 1;
@@ -152,7 +157,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 29);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(885, 468);
+            this.tabControl1.Size = new System.Drawing.Size(1059, 634);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -253,18 +258,32 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(877, 442);
+            this.tabPage2.Size = new System.Drawing.Size(1051, 608);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(3, 3);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.listView1);
+            this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
+            this.splitContainer1.Size = new System.Drawing.Size(1045, 602);
+            this.splitContainer1.SplitterDistance = 227;
+            this.splitContainer1.TabIndex = 0;
             // 
             // statusStrip1
             // 
             this.statusStrip1.Controls.Add(this.toolStripStatusLabel1);
             this.statusStrip1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.statusStrip1.Location = new System.Drawing.Point(0, 467);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 633);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(885, 30);
+            this.statusStrip1.Size = new System.Drawing.Size(1059, 30);
             this.statusStrip1.TabIndex = 3;
             // 
             // toolStripStatusLabel1
@@ -277,20 +296,25 @@
             this.toolStripStatusLabel1.Text = "Disconnected";
             this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // splitContainer1
+            // imageList1
             // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(3, 3);
-            this.splitContainer1.Name = "splitContainer1";
-            this.splitContainer1.Size = new System.Drawing.Size(871, 436);
-            this.splitContainer1.SplitterDistance = 190;
-            this.splitContainer1.TabIndex = 0;
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // listView1
+            // 
+            this.listView1.Location = new System.Drawing.Point(0, 0);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(224, 584);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(885, 497);
+            this.ClientSize = new System.Drawing.Size(1059, 663);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.filePanel);
@@ -304,10 +328,11 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
+            this.splitContainer1.Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -336,6 +361,9 @@
         private System.Windows.Forms.Label toolStripStatusLabel1;
         private System.Windows.Forms.Button updateTimerBtn;
         private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.DirectoryServices.DirectoryEntry directoryEntry1;
+        private System.Windows.Forms.ListView listView1;
     }
 }
 
