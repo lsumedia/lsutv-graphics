@@ -53,6 +53,7 @@
                                     overflow: 'hidden',
                                     text: "<p style=\"margin: 0px;\">​_content<span style=\"color: rgba(0, 0, 0, 0.137255);\"></span></p>",
                                     align: "left",
+                                    userClass: "autoscale",
                                     font: ['lato, sans-serif', [32, "px"], "rgba(0,0,0,1.00)", "500", "none", "normal", "break-word", "normal"],
                                     textStyle: ["", "", "", "", "none"]
                                 },

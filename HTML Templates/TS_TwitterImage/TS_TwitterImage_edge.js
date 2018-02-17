@@ -59,6 +59,7 @@
                                     overflow: 'hidden',
                                     text: "<p style=\"margin: 0px;\">​Image description</p>",
                                     align: "left",
+                                    userClass: "autoscale",
                                     font: ['lato, sans-serif', [21, "px"], "rgba(0,0,0,1.00)", "500", "none", "normal", "break-word", "normal"],
                                     textStyle: ["", "", "", "", "none"]
                                 },
