@@ -119,7 +119,7 @@ function update(str) {		// CASPAR CG - UPDATE
 	var xmlDoc = parser.parseFromString(str, 'text/xml');
 	
 	try{
-		mainImage = xmlDoc.getElementById('_image').childNodes[0].attributes.value.nodeValue;
+		mainImage = "data:image/png;base64," + xmlDoc.getElementById('_image').childNodes[0].attributes.value.nodeValue;
 		document.getElementById('Stage_image').style.backgroundImage = "url(" + mainImage + ")";
 		
 	}catch(err){
@@ -129,7 +129,7 @@ function update(str) {		// CASPAR CG - UPDATE
 	}
 	
 	try{
-		displayPic = xmlDoc.getElementById('_displaypic').childNodes[0].attributes.value.nodeValue;
+		displayPic = "data:image/png;base64," + xmlDoc.getElementById('_displaypic').childNodes[0].attributes.value.nodeValue;
 		document.getElementById('Stage_displaypic').style.backgroundImage = "url(" + displayPic + ")";
 	}catch(err){
 		console.log("Error reading image for '_displaypic'");

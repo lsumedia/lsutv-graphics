@@ -116,8 +116,8 @@ function update(str) {		// CASPAR CG - UPDATE
 	var xmlDoc = parser.parseFromString(str, 'text/xml');
 	
 	try{
-		displayPic = xmlDoc.getElementById('_displaypic').childNodes[0].attributes.value.nodeValue;
-		document.getElementById('Stage_displaypic').style.backgroundImage = "url(" + displayPic + ")";
+		displayPic = "data:image/png;base64," + xmlDoc.getElementById('_displaypic').childNodes[0].attributes.value.nodeValue;
+		document.getElementById('Stage_displaypic').style.backgroundImage = "url(" + displayPic +")";
 	}catch(err){
 		console.log("Error reading image for '_displaypic'");
 		console.error(err);
