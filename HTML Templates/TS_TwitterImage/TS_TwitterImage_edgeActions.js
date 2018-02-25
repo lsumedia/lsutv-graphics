@@ -20,9 +20,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 90, function(sym, e) {
-         
+         	
          	document.getElementById('Stage_image').style.backgroundImage = "url(" + mainImage + ")";
          	document.getElementById('Stage_displaypic').style.backgroundImage = "url(" + displayPic + ")";
+         	document.getElementById('Stage_image').style.backgroundSize = "contain";
+         	
+         	document.getElementById('Stage_image').style.backgroundRepeat = "no-repeat";
+         	document.getElementById('Stage_image').style.backgroundPosition = "center";
 
       });
       //Edge binding end

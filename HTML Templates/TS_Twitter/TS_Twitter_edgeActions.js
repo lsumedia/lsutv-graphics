@@ -19,9 +19,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 75, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 85, function(sym, e) {
          // insert code here
          document.getElementById('Stage_displaypic').style.backgroundImage = "url(" + displayPic + ")";
+         
+         var content = documet.getElementById('Stage__content');
+         console.log(content.getComputedStyles.height);
 
       });
       //Edge binding end

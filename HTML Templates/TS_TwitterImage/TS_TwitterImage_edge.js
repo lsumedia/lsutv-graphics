@@ -55,12 +55,12 @@
                                 {
                                     id: '_description',
                                     type: 'text',
-                                    rect: ['-95px', '86px', '364px', '94px', 'auto', 'auto'],
+                                    rect: ['-95px', '78px', '364px', '105px', 'auto', 'auto'],
                                     overflow: 'hidden',
                                     text: "<p style=\"margin: 0px;\">​Image description</p>",
                                     align: "left",
-                                    userClass: "autoscale",
-                                    font: ['lato, sans-serif', [21, "px"], "rgba(0,0,0,1.00)", "500", "none", "normal", "break-word", "normal"],
+                                    userClass: "",
+                                    font: ['lato, sans-serif', [18, "px"], "rgba(0,0,0,1.00)", "500", "none", "normal", "break-word", "normal"],
                                     textStyle: ["", "", "", "", "none"]
                                 },
                                 {
